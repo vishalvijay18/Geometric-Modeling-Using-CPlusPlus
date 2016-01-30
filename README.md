@@ -10,7 +10,7 @@ You will need to install OpenGL and GLUI libraries for running codes in this rep
 sudo apt-get install freeglut3 freeglut3-dev`
 sudo apt-get install binutils-gold
 ```
-- Download packages libglui2c2 and libglui-dev from ubuntu package archive. Links below:
+- Download packages libglui2c2 and libglui-dev from ubuntu package archive. Links below for 64bit architecture:
 [libglui2c2](http://packages.ubuntu.com/precise/amd64/libglui2c2)
 [libglui-dev](http://packages.ubuntu.com/precise/libglui-dev)
 - Install them:
