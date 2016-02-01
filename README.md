@@ -21,4 +21,7 @@ sudo dpkg -i libglui-dev_2.36-4ubuntu1_amd64.deb
 - Try testing a simple code to test if it works. Sample command:
 `g++ sample.cpp -L/usr/lib -lglui -lglut -lGLU -lGL -lm`
 
+Interesting read to understand basics of OpenGL code:
+[OpenGL basics](https://www3.ntu.edu.sg/home/ehchua/programming/opengl/CG_Introduction.html)
+
 Let me know if you face any issues.
