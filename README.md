@@ -35,4 +35,4 @@ Let me know if you face any issues.
 
 ###References
 ---
-- CMPT 764 course SFU [course web page](http://www2.cs.sfu.ca/~haoz/teaching/cmpt464/)
+- CMPT 764 course SFU [(course web page)](http://www2.cs.sfu.ca/~haoz/teaching/cmpt464/)
