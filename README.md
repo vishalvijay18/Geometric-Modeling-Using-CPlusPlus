@@ -4,7 +4,7 @@ This repository will contain some basic geometric modeling tasks using OpenGL an
 You will need to install OpenGL and GLUI libraries for running codes in this repository.
 
 ###Steps for setup on Ubuntu (15.10)
-
+---
 - Use following command for installing freeglut package
 ```
 sudo apt-get install freeglut3 freeglut3-dev`
@@ -29,6 +29,6 @@ Interesting read to understand basics of OpenGL code:
 Let me know if you face any issues.
 
 ###Basics
-
+---
 1. What are .smf files?
-  *In the SMF (Simple Mesh Format) format, a mesh is given by a vertex list followed by a face  list. Each  line  in  the vertex list starts with the character ‘v’, followed by the x, y, and z vertex coordinates. Each line in the face list starts with the character ‘f’, and followed by three integers indexing into the vertex list. The vertex indexes start with 1 and are given in counterclockwise order, viewed from the  tip  of the  triangle’s  outward  pointing  normal.  Any  comments  start with the character ‘#’. The very first line of the SMF file is of the form “# n m”, where n is the number of vertices and m the number of faces in the mesh.
+- In the SMF (Simple Mesh Format) format, a mesh is given by a vertex list followed by a face  list. Each  line  in  the vertex list starts with the character ‘v’, followed by the x, y, and z vertex coordinates. Each line in the face list starts with the character ‘f’, and followed by three integers indexing into the vertex list. The vertex indexes start with 1 and are given in counterclockwise order, viewed from the  tip  of the  triangle’s  outward  pointing  normal.  Any  comments  start with the character ‘#’. The very first line of the SMF file is of the form “# n m”, where n is the number of vertices and m the number of faces in the mesh.
