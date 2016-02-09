@@ -3,7 +3,7 @@ This repository will contain some basic geometric modeling tasks using OpenGL an
 
 You will need to install OpenGL and GLUI libraries for running codes in this repository.
 
-##Steps for setup on Ubuntu (15.10)
+###Steps for setup on Ubuntu (15.10)
 
 - Use following command for installing freeglut package
 ```
