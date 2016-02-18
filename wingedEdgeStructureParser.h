@@ -1,0 +1,6 @@
+#ifndef WINGEDEDGESTRUCTUREPARSER_H
+#define WINGEDEDGESTRUCTUREPARSER_H
+
+void wingedEdgeParser();
+
+#endif
