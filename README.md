@@ -37,7 +37,7 @@ Let me know if you face any issues.
   * In the SMF (Simple Mesh Format) format, a mesh is given by a vertex list followed by a face  list. Each  line  in  the vertex list starts with the character ‘v’, followed by the x, y, and z vertex coordinates. Each line in the face list starts with the character ‘f’, and followed by three integers indexing into the vertex list. The vertex indexes start with 1 and are given in counterclockwise order, viewed from the  tip  of the  triangle’s  outward  pointing  normal.  Any  comments  start with the character ‘#’. The very first line of the SMF file is of the form “# n m”, where n is the number of vertices and m the number of faces in the mesh.
 
 3. What is winged-edge data structure?
-  * It is a representation of an orientable mesh which facilitates easy edge processing and mesh manipulation. Refer [this](http://what-when-how.com/advanced-methods-in-computer-graphics/mesh-processing-advanced-methods-in-computer-graphics-part-2/) for an easy to understand details of this data structure.
+  * It is a representation of an orientable mesh which facilitates easy edge processing and mesh manipulation. Refer [this](http://what-when-how.com/advanced-methods-in-computer-graphics/mesh-processing-advanced-methods-in-computer-graphics-part-2/) for an easy-to-understand details of this data structure.
 
 
 
