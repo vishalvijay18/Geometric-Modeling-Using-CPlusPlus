@@ -30,7 +30,7 @@ Let me know if you face any issues.
 
 ###Basics
 ---
-1. What this project all about?
+1. What is this project all about?
   * The code present in this repository is basically implementation of major geometric modelling paradigms in computer graphics. It provides smf reader, winged-edge data structure parser and decimation of 3D model using C++, OpenGL and GLUI. 
 
 2. What are .smf files?
