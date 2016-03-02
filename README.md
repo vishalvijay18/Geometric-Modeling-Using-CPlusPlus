@@ -1,4 +1,4 @@
-# Geometric Modeling using OpenGL
+# Geometric Modeling using C++ and OpenGL
 This repository will contain some basic geometric modeling tasks using OpenGL and GLUI.
 
 You will need to install OpenGL and GLUI libraries for running codes in this repository.
