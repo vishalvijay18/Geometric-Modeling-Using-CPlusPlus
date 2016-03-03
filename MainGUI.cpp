@@ -37,11 +37,11 @@ char file[1024];
 
 GLUI_Listbox *listbox;
 
-void setupViewport(int w, int h) {
 
-  	/* This sets up the viewport so that the x- and y-scales are proportional */
-  	/* to the sides of the window.  If you draw a square it will be displayed */
-  	/* as a square, regardless of how the window is resized.  */
+/* This sets up the viewport so that the x- and y-scales are proportional */
+/* to the sides of the window.  If you draw a square it will be displayed */
+/* as a square, regardless of how the window is resized.  */
+void setupViewport(int w, int h) {
 
   	//glViewport(0, 0, w, h); 
 	GLUI_Master.auto_set_viewport();  	
@@ -50,6 +50,7 @@ void setupViewport(int w, int h) {
 	glFrustum( -((float)w/(float)h)*0.08, ((float)w/(float)h)*0.08, -0.08, 0.08, .1, 15.0 );
 }
 
+//things to be done once
 void init() {
 
 	glClearColor(0.7, 0.7, 1.0, 0.0); //background color
@@ -94,6 +95,7 @@ void controlBlock( int control )
 	}
 }
 
+//code to handle motion
 void handleMotion(int x, int y )
 {
   rotationX += (float) (y - lasty);
@@ -105,6 +107,7 @@ void handleMotion(int x, int y )
   glutPostRedisplay(); 
 }
 
+//this is the display function which gets rendered
 void handleDisplay()
 {  	
   	glClear(GL_DEPTH_BUFFER_BIT | GL_COLOR_BUFFER_BIT);
@@ -273,6 +276,7 @@ void handleDisplay()
 
 }
 
+//handling reshape when window resized
 void handleReshape(int w, int h) {
         setupViewport(w, h);
   	glutSetWindow(window);
